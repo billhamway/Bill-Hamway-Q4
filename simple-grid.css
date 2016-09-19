@@ -3,7 +3,7 @@
 *** (C) ZACH COLE 2016
 **/
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
 /* UNIVERSAL */
 
@@ -21,8 +21,9 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  color: #304853;
   line-height: 1.5;
 }
 
@@ -30,6 +31,8 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  letter-spacing: -1.3px;
+  margin-bottom: -3px;
 }
 
 h2 {
@@ -46,6 +49,7 @@ h4 {
 
 h5 {
   font-size: 1rem;
+  margin-bottom: -15px;
 }
 
 h6 {
@@ -66,7 +70,11 @@ p {
   font-weight: 400;
 }
 
-.font-heavy {
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.font-bold {
   font-weight: 700;
 }
 
